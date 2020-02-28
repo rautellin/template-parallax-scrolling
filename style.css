@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.parallax {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 60px;
+  background: transparent;
+}
+
+.parallax:nth-child(1) {
+  background-image: url(images/background1.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+.parallax:nth-child(2) {
+  background-color: rgb(196, 153, 153);
+}
+
+.parallax:nth-child(3) {
+  background-image: url(images/background2.jpeg);
+  background-size: cover;
+  color: white;
+}
+.parallax:nth-child(4) {
+  background-color: rgb(196, 153, 153);
+}
